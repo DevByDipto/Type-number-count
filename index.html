@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type and number count</title>
+    <style>
+        body {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          background-color:rgb(209, 227, 227);
+        }
+section{
+    background-color:burlywood;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+        .work1 {
+            height: 100px;
+            width: 100px;
+            background-color:rgb(221, 133, 151);
+            font-size: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .work2{
+            display: flex;justify-content: center;
+            align-items: center;
+          background-color: burlywood;
+          height: 20px;
+          padding: 20px;
+        }
+
+        .work3 {
+            display: flex;
+            gap: 20px;
+        }
+
+        .counter {
+            height: 70px;
+            width: 70px;
+            background-color: rgb(167, 214, 230);
+            font-size: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <!-- work-1============ -->
+        <div class="work1">
+            <h1 class="header"> </h1>
+        </div>
+
+        <!-- work-2============ -->
+        <div class="work2">
+            <h2 class="name" data-text="Dipto Ghosh"></h2>
+        </div>
+
+        <!-- work-3================== -->
+        <div class="work3">
+            <h2 class="counter" data-number="400" data-speed="10"></h2>
+            <h2 class="counter" data-number="300" data-speed="10"></h2>
+            <h2 class="counter" data-number="200" data-speed="10"></h2>
+            <h2 class="counter" data-number="100" data-speed="10"></h2>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
